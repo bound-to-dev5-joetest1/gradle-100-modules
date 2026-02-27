@@ -26,9 +26,9 @@ subprojects {
 
 sonarqube {
     properties {
-        property("sonar.projectKey", "gradle-100-modules")
+        property("sonar.projectKey", "bound-to-dev5-joetest1_gradle-100-modules")
         property("sonar.organization", "joetest1")
-        property("sonar.host.url", "https://dev5.sc-dev5.io")
-        property("sonar.sourceEncoding", "UTF-8")
+        property("sonar.scanner.sonarcloudUrl", "https://dev5.sc-dev5.io")
+        property("sonar.scanner.apiBaseUrl", "https://api.sc-dev5.io")
     }
 }
