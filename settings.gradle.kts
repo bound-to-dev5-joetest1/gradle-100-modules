@@ -1,4 +1,4 @@
-rootProject.name = "gradle-baddie"
+rootProject.name = "gradle-100-modules"
 
 include(
     "module-01",
@@ -91,4 +91,14 @@ include(
     "module-88",
     "module-89",
     "module-90",
+    "module-91",
+    "module-92",
+    "module-93",
+    "module-94",
+    "module-95",
+    "module-96",
+    "module-97",
+    "module-98",
+    "module-99",
+    "module-100",
 )

@@ -27,9 +27,9 @@ subprojects {
 sonarqube {
     properties {
         property("sonar.projectKey", "bound-to-dev5-joetest1_gradle-100-modules")
+        property("sonar.projectName", "gradle-100-modules")
         property("sonar.organization", "joetest1")
-        property("sonar.scanner.sonarcloudUrl", "https://dev5.sc-dev5.io")
-        property("sonar.scanner.apiBaseUrl", "https://api.sc-dev5.io")
-        property("sonar.scanner.javaOpts", "-Xmx14g -Xms4g -XX:MaxMetaspaceSize=1g -XX:+HeapDumpOnOutOfMemoryError")
+        property("sonar.host.url", "https://dev5.sc-dev5.io")
+        property("sonar.scanner.javaOpts", "-Xmx32g -Xms4g -XX:MaxMetaspaceSize=1g -XX:+HeapDumpOnOutOfMemoryError")
     }
 }
