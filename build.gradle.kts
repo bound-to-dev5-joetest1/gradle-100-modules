@@ -30,6 +30,5 @@ sonarqube {
         property("sonar.projectName", "gradle-100-modules")
         property("sonar.organization", "joetest1")
         property("sonar.host.url", "https://dev5.sc-dev5.io")
-        property("sonar.scanner.javaOpts", "-Xmx32g -Xms4g -XX:MaxMetaspaceSize=1g -XX:+HeapDumpOnOutOfMemoryError")
     }
 }
